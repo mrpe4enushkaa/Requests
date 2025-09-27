@@ -1,0 +1,25 @@
+{
+  "name": "requests",
+  "version": "1.0.0",
+  "description": "Query examples",
+  "homepage": "https://github.com/mrpe4enushkaa/Requests#readme",
+  "bugs": {
+    "url": "https://github.com/mrpe4enushkaa/Requests/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrpe4enushkaa/Requests.git"
+  },
+  "license": "ISC",
+  "author": "mrpe4enushkaa_",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "typescript": "^5.9.2"
+  }
+}
