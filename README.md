@@ -1,4 +1,4 @@
-# HTTP Requests Demo
+# HTTP Requests
 
 Простой пример работы с HTTP-запросами на TypeScript с использованием JSONPlaceholder API.
 
