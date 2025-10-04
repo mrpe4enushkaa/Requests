@@ -9,7 +9,7 @@ interface IGETPosts {
     userId: number     // ID пользователя, которому принадлежит пост
 }
 
-// Функция для выполнения GET-запроса к API 
+// Функция для выполнения GET-запроса к API
 const GETRequest = async (): Promise<IGETPosts> => {
     // Отправляем запрос на получение данных
     const response = await fetch(`https://jsonplaceholder.typicode.com/posts`, {
